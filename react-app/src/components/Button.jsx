@@ -1,11 +1,13 @@
 import React from "react";
-import Button_img from './Button.png';
+import './Button.css';
 
 export const Button = ({location}) => {
    return (
-      <button>
-         <img src={Button_img} />
-         {location}
-      </button>
+      <div className="container">
+         <div className="Button"></div>
+         <div className="text">
+            <h1> {location} </h1>
+         </div>
+      </div>
    )
 }

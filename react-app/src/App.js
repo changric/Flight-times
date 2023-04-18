@@ -6,9 +6,7 @@ function App() {
   return (
     <div className="App-header">
       <img src={Map}/>
-      <Button
-         location={"Vancouver"}
-      />
+      <Button location={"Vancouver"}/>
     </div>
   );
 }

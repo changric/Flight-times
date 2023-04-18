@@ -1,0 +1,17 @@
+.Button {
+   border-radius: 50%;
+   background-color: rgb(255, 0, 0);
+   height: 8px;
+   width: 8px;
+ }
+
+ .container {
+   display: flex;
+   align-items: center; 
+   column-gap: 5px;
+  }
+
+ h1 {
+   color: black;
+   font-size: 15px;
+ }
